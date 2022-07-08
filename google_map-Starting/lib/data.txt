@@ -1,0 +1,12 @@
+Sun Jun 26 07:55:57 2022, True
+92078, Midgrade, Credit Only
+['76', '$6.55', '110 S Rancho Santa Fe RdSan Marcos, CA']
+['ARCO', '$6.39', '1187 W San Marcos BlvdSan Marcos, CA']
+['Shell', '$6.49', '800 S Rancho Santa Fe RdSan Marcos, CA']
+['76', '$6.55', '112 S Rancho Santa Fe RdSan Marcos, CA']
+['Rancho Santa Fe Gas', '$6.45', '105 S Rancho Sante Fe RdSan Marcos, CA']
+['Chevron', '$6.45', '1710 San Elijo RdSan Marcos, CA']
+['7-Eleven', '$6.49', '696 W San Marcos BlvdSan Marcos, CA']
+['Shell', '$6.55', '679 W San Marcos BlvdSan Marcos, CA']
+['Chevron', '$6.85', '1200 W San Marcos BlvdSan Marcos, CA']
+['Shell', '$6.89', '102 E Carmel StSan Marcos, CA']
