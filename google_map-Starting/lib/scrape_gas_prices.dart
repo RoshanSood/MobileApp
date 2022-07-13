@@ -26,23 +26,23 @@ Future<List<List<String>>> getGasByZipCode(String ZipCode) async {
 String temp = " ";
 String tempLoc = " ";
 String tempName = " ";
-int num = elements[i]['title'].compareTo( elements[i+1]['title']);
-if(num == 1){
-   temp = elements[i]['title'];
-  elements[i]['title'] = elements[i+1]['title'];
-  elements[i+1]['title'] = temp;
-   tempLoc = elementsLoc[i]['title'];
-  elementsLoc[i]['title'] = elementsLoc[i+1]['title'];
-  elementsLoc[i+1]['title'] = tempLoc;
-   tempName = elementsName[i]['title'];
-  elementsName[i]['title'] = elementsName[i+1]['title'];
-  elementsName[i+1]['title'] = tempName;
-  gasPrices.add([
-        elementsName[i]['title'],
-        elements[i]['title'],
-        elementsLoc[i]['title']
-      ]);
-}
+// int num = elements[i]['title'].compareTo( elements[i+1]['title']);
+// if(num == 1){
+//    temp = elements[i]['title'];
+//   elements[i]['title'] = elements[i+1]['title'];
+//   elements[i+1]['title'] = temp;
+//    tempLoc = elementsLoc[i]['title'];
+//   elementsLoc[i]['title'] = elementsLoc[i+1]['title'];
+//   elementsLoc[i+1]['title'] = tempLoc;
+//    tempName = elementsName[i]['title'];
+//   elementsName[i]['title'] = elementsName[i+1]['title'];
+//   elementsName[i+1]['title'] = tempName;
+//   gasPrices.add([
+//         elementsName[i]['title'],
+//         elements[i]['title'],
+//         elementsLoc[i]['title']
+//       ]);
+// }
 print(elements[i]['title'].compareTo( elements[i+1]['title']));
 if (elementsLoc[i]['title'] == elementsLoc[i+1]['title']) {
   print("REMOVING");
