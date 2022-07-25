@@ -224,20 +224,20 @@ class Page2 extends StatelessWidget {
                   if (index == snapshot.data.length) {
                     return Column(
                       children: [
-                        ElevatedButton(
-                          onPressed: () {
-                            Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => Page3()));
-                          },
-                          style: ElevatedButton.styleFrom(
-                 primary: Color.fromARGB(255, 31, 30, 30),
-                // padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
-                 textStyle: TextStyle(
-                 fontSize: 20,
-                // fontWeight: FontWeight.bold)
-              )),
-                          child: const Text("Heat Map"),
-                        ),
+              //           ElevatedButton(
+              //             onPressed: () {
+              //               Navigator.of(context).push(MaterialPageRoute(
+              //                   builder: (context) => Page3()));
+              //             },
+              //             style: ElevatedButton.styleFrom(
+              //    primary: Color.fromARGB(255, 31, 30, 30),
+              //   // padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+              //    textStyle: TextStyle(
+              //    fontSize: 20,
+              //   // fontWeight: FontWeight.bold)
+              // )),
+              //             child: const Text("Heat Map"),
+              //           ),
                         ElevatedButton(
                           onPressed: () {
                             Navigator.of(context).push(MaterialPageRoute(
